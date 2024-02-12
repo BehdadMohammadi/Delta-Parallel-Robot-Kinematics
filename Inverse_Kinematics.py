@@ -1,6 +1,6 @@
 import math
 
-parameters = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+parameters = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0.01, 0.02, 0.03]
 
 x = 10
 y = -10
@@ -43,9 +43,9 @@ B_3 = +2*L1_3*z
 D_3 = x**2 + y**2 + z**2 + L1_3**2 - L2_3**2 + R_3**2 + r_3**2 -2*R_3*r_3*math.sin(beta_3)*math.sin(landa_3) -2*R_3*r_3*math.cos(beta_3)*math.cos(landa_3) +2*r_3*x*math.cos(beta_3) +2*r_3*y*math.sin(beta_3) -2*R_3*x*math.cos(landa_3) -2*R_3*y*math.sin(landa_3)
 
 
-theta_1 = (2*math.atan((-B_1-math.sqrt(B_1**2+A_1**2-D_1**2))/(D_1-A_1))) + parameters[18]
-theta_2 = (2*math.atan((-B_2-math.sqrt(B_2**2+A_2**2-D_2**2))/(D_2-A_2))) + parameters[19]
-theta_3 = (2*math.atan((-B_3-math.sqrt(B_3**2+A_3**2-D_3**2))/(D_3-A_3))) + parameters[20]
+theta_1 = (2*math.atan((-B_1-math.sqrt(B_1**2+A_1**2-D_1**2))/(D_1-A_1))) - parameters[18]
+theta_2 = (2*math.atan((-B_2-math.sqrt(B_2**2+A_2**2-D_2**2))/(D_2-A_2))) - parameters[19]
+theta_3 = (2*math.atan((-B_3-math.sqrt(B_3**2+A_3**2-D_3**2))/(D_3-A_3))) - parameters[20]
 
 print(theta_1)
 print(theta_2)

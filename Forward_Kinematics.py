@@ -1,10 +1,10 @@
 import math
 
-parameters = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+parameters = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0.01, 0.02, 0.03]
 
-theta_1 = 1
-theta_2 = 1
-theta_3 = 1
+theta_1 = 0.03973355135631484
+theta_2 = 0.06862371750142703
+theta_3 = 0.0054515263991744695
 
 theta_1 = theta_1 + parameters[18]
 theta_2 = theta_2 + parameters[19]
