@@ -83,13 +83,21 @@ def My_Forward(theta1, theta2, theta3):
     theta_2 = theta_2 + parameters[19]
     theta_3 = theta_3 + parameters[20]
 
-    landa_1 = 1*(math.pi/6) + parameters[0]
-    landa_2 = 5*(math.pi/6) + parameters[1]
-    landa_3 = 9*(math.pi/6) + parameters[2]
+    #landa_1 = 1*(math.pi/6) + parameters[0]
+    #landa_2 = 5*(math.pi/6) + parameters[1]
+    #landa_3 = 9*(math.pi/6) + parameters[2]
 
-    beta_1 = 1*(math.pi/6) + parameters[3]
-    beta_2 = 5*(math.pi/6) + parameters[4]
-    beta_3 = 9*(math.pi/6) + parameters[5]
+    #beta_1 = 1*(math.pi/6) + parameters[3]
+    #beta_2 = 5*(math.pi/6) + parameters[4]
+    #beta_3 = 9*(math.pi/6) + parameters[5]
+
+    landa_1 = 9*(math.pi/6) + parameters[0]
+    landa_2 = 1*(math.pi/6) + parameters[1]
+    landa_3 = 5*(math.pi/6) + parameters[2]
+
+    beta_1 = 9*(math.pi/6) + parameters[3]
+    beta_2 = 1*(math.pi/6) + parameters[4]
+    beta_3 = 5*(math.pi/6) + parameters[5]
 
     L1_1 = 308.95 + parameters[6]
     L1_2 = 308.95 + parameters[7]
@@ -155,9 +163,9 @@ def My_Forward(theta1, theta2, theta3):
     return [0, Xp/10, Yp/10, Zp/10]
 
 
-theta1 = 2.2621071582562866
-theta2 = 23.64584116472934
-theta3 = -5.917449860537627
+theta1 = 10
+theta2 = 20
+theta3 = 0
 
 test1 = Forward(theta1, theta2, theta3)
 test2 = My_Forward(theta1, theta2, theta3)

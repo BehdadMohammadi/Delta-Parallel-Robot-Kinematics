@@ -63,13 +63,21 @@ def My_Inverse(x, y, z):
     y = y * 10
     z = z * 10
 
-    landa_1 = 1*(math.pi/6) + parameters[0]
-    landa_2 = 5*(math.pi/6) + parameters[1]
-    landa_3 = 9*(math.pi/6) + parameters[2]
+    #landa_1 = 1*(math.pi/6) + parameters[0]
+    #landa_2 = 5*(math.pi/6) + parameters[1]
+    #landa_3 = 9*(math.pi/6) + parameters[2]
 
-    beta_1 = 1*(math.pi/6) + parameters[3]
-    beta_2 = 5*(math.pi/6) + parameters[4]
-    beta_3 = 9*(math.pi/6) + parameters[5]
+    #beta_1 = 1*(math.pi/6) + parameters[3]
+    #beta_2 = 5*(math.pi/6) + parameters[4]
+    #beta_3 = 9*(math.pi/6) + parameters[5]
+
+    landa_1 = 9*(math.pi/6) + parameters[0]
+    landa_2 = 1*(math.pi/6) + parameters[1]
+    landa_3 = 5*(math.pi/6) + parameters[2]
+
+    beta_1 = 9*(math.pi/6) + parameters[3]
+    beta_2 = 1*(math.pi/6) + parameters[4]
+    beta_3 = 5*(math.pi/6) + parameters[5]
 
     L1_1 = 308.95 + parameters[6]
     L1_2 = 308.95 + parameters[7]
