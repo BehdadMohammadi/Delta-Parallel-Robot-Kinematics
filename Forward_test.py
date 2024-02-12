@@ -155,9 +155,9 @@ def My_Forward(theta1, theta2, theta3):
     return [0, Xp/10, Yp/10, Zp/10]
 
 
-theta1 = 0
-theta2 = 0
-theta3 = 10
+theta1 = 2.2621071582562866
+theta2 = 23.64584116472934
+theta3 = -5.917449860537627
 
 test1 = Forward(theta1, theta2, theta3)
 test2 = My_Forward(theta1, theta2, theta3)
