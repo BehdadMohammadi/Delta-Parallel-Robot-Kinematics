@@ -2,8 +2,8 @@ import math
 
 parameters = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 
-x = 0
-y = 0
+x = 10
+y = -10
 z = -500
 
 landa_1 = 1*(math.pi/6) + parameters[0]
